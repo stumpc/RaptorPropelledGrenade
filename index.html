@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>RaptorPropelledGrenade</title>
+	<!-- Google's jQuery CDN -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Google's jQuery-CSV -->
+	<script src="jquery.csv-0.71.js"></script>
+	<!-- jQuery UI JavaScript CDN -->
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+	<!-- jQuery UI South Street Theme CSS -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/south-street/jquery-ui.css">
+	<!-- Compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- Optional Bootstrap theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!-- Compiled and minified Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<!-- Local CSS stylesheets -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Local JavaScript scripts -->
+	<script src="script.js"></script>
+	<!--Google Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+	<style>
+		body{
+			background: url('bg.png');
+			background-size:cover;
+			background-repeat: no-repeat;
+			text-align: center;
+			font-family: 'Arimo', sans-serif;
+		}
+
+		p{
+			color:white;
+		}
+
+		.whiteText{ 
+			color:white;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			}
+
+		.center{
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			background: #99CCFF;
+					}
+
+		.border{
+			border: solid #1A4280 20px;
+			padding: .01cm .01cm .01cm .01cm;
+			margin: 0cm 16cm;
+			-webkit-border-radius: 30px;
+			-moz-border-radius: 30px;
+			border-radius: 30px;
+			
+		}
+
+		#border{
+			border: solid #1A4280 10px;
+			margin: 0cm 16cm;
+			-webkit-border-radius: 30px;
+			-moz-border-radius: 30px;
+			border-radius: 20px;
+			
+		}
+
+
+	
+		.ambSens{
+			border: solid #000000;
+			margin: 0cm 16cm;
+			padding: 0px;
+			width: 100px;
+		}
+
+	#SPA, #SPB{
+		width: 225px;
+		padding: 0px;
+		display: table-cell;
+
+	}
+
+	.wrapper{
+	margin: auto;
+	width: 500px;
+	display: table;
+	}
+	
+	h2{
+		font-family: 'Oswald', sans-serif;
+	}
+	</style>
+
+	<meta http-equiv="refresh" content="30">
+
+</head>
+
+<body>
+<h2>Raptor Propelled Grenade</h2>
+<br>
+	<div id="border" class=ambSens>
+		<div id="ambSens" class=whiteText></div>
+	</div>
+	<br>
+<div class="wrapper">
+	<div id="SPA" class=border>
+		<div class=center> SPA </div>
+		<div id="spaPower" class=whiteText></div>
+		<div id="spaFault" class=whiteText></div>
+		<div id="spaMemFault" class=whiteText></div>
+		<div id="spaUnsafeRemove" class=whiteText></div>
+		<div id="spaEth1Link" class=whiteText></div>
+		<div id="spaEth1Activity" class=whiteText></div>
+		<div id="spaEth2Link" class=whiteText></div>
+		<div id="spaEth2Activity" class=whiteText></div>
+		<div id="spaEth3Link" class=whiteText></div>
+		<div id="spaEth3Activity" class=whiteText></div>
+		<div id="spaEth4Link" class=whiteText></div>
+		<div id="spaEth4Activity" class=whiteText></div>
+		<div id="spaSasP1Link" class=whiteText></div>
+		<div id="spaSasP2Link" class=whiteText></div>
+		<div id="spaFCPort1" class=whiteText></div>
+		<div id="spaFCPort2" class=whiteText></div>
+	</div>
+	<div id="SPB" class=border>
+		<div class=center> SPB </div>
+		<div id="spbPower" class=whiteText></div>
+		<div id="spbFault" class=whiteText></div>
+		<div id="spbMemFault" class=whiteText></div>
+		<div id="spbUnsafeRemove" class=whiteText></div>
+		<div id="spbEth1Link" class=whiteText></div>
+		<div id="spbEth1Activity" class=whiteText></div>
+		<div id="spbEth2Link" class=whiteText></div>
+		<div id="spbEth2Activity" class=whiteText></div>
+		<div id="spbEth3Link" class=whiteText></div>
+		<div id="spbEth3Activity" class=whiteText></div>
+		<div id="spbEth4Link" class=whiteText></div>
+		<div id="spbEth4Activity" class=whiteText></div>
+		<div id="spbSasP1Link" class=whiteText></div>
+		<div id="spbSasP2Link" class=whiteText></div>
+		<div id="spbFCPort1" class=whiteText></div>
+		<div id="spbFCPort2" class=whiteText></div>
+	</div>
+</div>
+<br>
+<br>
+<p>Real time EMC Raptor API Monitoring</p>
+
+
+</body>
+</html>
